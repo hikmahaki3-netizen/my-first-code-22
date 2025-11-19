@@ -2,24 +2,24 @@
 using namespace std;
 
 int main() {
-    int marks;
+    int score;
 
-    cout << "Enter your marks (0 - 100): ";
-    cin >> marks;
+    cout << "Enter your score (0 - 100): ";
+    cin >> score;
 
-    if (marks > 100 || marks < 0) {
-        cout << "Invalid input! Marks must be between 0 and 100." << endl;
+    if (score > 100 || score < 0) {
+        cout << "Invalid input! score must be between 0 and 100." << endl;
     }
-    else if (marks >= 90) {
+    else if (score >= 90) {
         cout << "Grade: A" << endl;
     }
-    else if (marks >= 80) {
+    else if (score >= 80) {
         cout << "Grade: B" << endl;
     }
-    else if (marks >= 70) {
+    else if (score >= 70) {
         cout << "Grade: C" << endl;
     }
-    else if (marks >= 60) {
+    else if (score >= 60) {
         cout << "Grade: D" << endl;
     }
     else {
@@ -28,3 +28,4 @@ int main() {
 
     return 0;
 }
+
